@@ -3,7 +3,7 @@ FROM python:3.8
 # Install any necessary dependencies specific to your API
 RUN pip install flask joblib scikit-learn pandas
 
-Run pip install torch torchvision
+RUN pip install torch torchvision
 
 # Create the necessary directories
 RUN mkdir -p /app/MODEL_DIR
